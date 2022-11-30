@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 194, 115);
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+#input-container {
+    width: 100%;
+    height: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#input-container input {
+    width: 70%;
+    height: 100%;
+}
+
+#input-container button {
+    width: 25%;
+    height: 100%;
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    border-style: none;
+    cursor: pointer;
+}
+
+#tasks-container {
+    width: 100%;
+}
+
+ul {
+    padding: 5px
+}
+
+li {
+    background-color: antiquewhite;
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li:hover {
+    background-color: rgb(243, 209, 164);
+    transition: 0.3s;
+}
+
+.delete {
+    display: none;
+}
+
+.done {
+    background-color: rgb(47, 255, 92); 
+}
+
+.done:hover {
+    background-color: rgb(45, 170, 72); 
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(199, 0, 0);
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(119, 30, 30);
+    transition: 0.2s;
+}
+
+@media all and (min-width: 500px) {
+    #main-container {
+        padding: 1em;
+        width: 700px;
+        min-height: 250px;
+    }
+    #input-container {
+        height: 30px;
+    }
+}
