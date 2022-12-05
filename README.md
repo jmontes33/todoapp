@@ -11,6 +11,8 @@
 
 This is a simple task list, where you can create tasks, mark them as completed, and delete them.
 
+Link to the app: https://lucent-torte-a73881.netlify.app/
+
 ### Screenshot
 
 ![Project finished](./todo.JPG)
