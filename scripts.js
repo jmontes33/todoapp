@@ -29,13 +29,13 @@ function createListElement() {
     deleteBtn.addEventListener("click", deleteListItem);
 
     function deleteListItem() {
-        li.classList.add("delete")
+        li.classList.add("delete");
     }
 }
 
 function addListAfterClick() {
-    if (inputLength > 0) {
-        createElement();
+    if (inputLength() > 0) {
+        createListElement();
     }
 }
 
